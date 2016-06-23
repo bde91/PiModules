@@ -17,9 +17,9 @@
 |System Battery Backup Output|5V 2.5A current continuous supply to Raspberry Pi via GPIO Pins|5V 2.5A current continuous supply to Raspberry Pi via GPIO Pins|5V 2.5A current continuous supply to Raspberry Pi via GPIO Pins|
 |Auxiliary 5V Battery Backed Supply on PIco I/O Pins|5V @ 750 mA continuous supply on PIco I/O Pin. <br>Able to supply auxiliary devices with Raspberry Pi disconnected.<br>(Total system current should not exceed 3A)|5V @ 750 mA continuous supply on PIco I/O Pin. <br>Able to supply auxiliary devices with Raspberry Pi disconnected.<br>(Total system current should not exceed 3A)|5V @ 750 mA continuous supply on PIco I/O Pin. <br>Able to supply auxiliary devices with Raspberry Pi disconnected.<br>(Total system current should not exceed 3A)|
 |**Battery Back-up Type**| | | |
-|UPS| | | |
-|Powering Monitoring Point| | | |
-| | | | |
+|UPS|UPS Standby Type, with Switchover time of 360 uS, during switching time the protected system is powered by auxiliary online power source for maximum 10mS, therefore no power gap on GPIO during switching time|UPS Standby Type, with Switchover time of 360 uS, during switching time the protected system is powered by auxiliary online power source for maximum 10mS, therefore no power gap on GPIO during switching time|UPS Standby Type, with Switchover time of 360 uS, during switching time the protected system is powered by auxiliary online power source for maximum 10mS, therefore no power gap on GPIO during switching time|
+|Powering Monitoring Point|Raspberry Pi® GPIO 5V|Raspberry Pi® GPIO 5V|Raspberry Pi® GPIO 5V|
+|UPS Activation Powering Triggers|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|
 | | | | |
 | | | | |
 | | | | |
