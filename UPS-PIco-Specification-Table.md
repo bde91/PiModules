@@ -48,20 +48,27 @@
 |System Keys|RPiR, UPSR, FSSD|RPiR, UPSR, FSSD|RPiR, UPSR, FSSD|
 |User Programmable Keys|AKEY, BKEY, CKEY|AKEY, BKEY, CKEY|AKEY, BKEY, CKEY|
 |Audio Interface|Electromagnetic Transducer, with programmable sound duration and frequency, able to play music|Electromagnetic Transducer, with programmable sound duration and frequency, able to play music|Electromagnetic Transducer, with programmable sound duration and frequency, able to play music|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-
-
+|**Basic Features**| | | |
+|Battery Backed Hardware Real Time Clock and Calendar|Yes|Yes|Yes|
+|Bi-Stable (Zero Power) Relay|Yes (Optional)|Yes|Yes (Optional)|
+|Automatic Active Cooling System (FAN)|Yes (Optional)|Yes (Optional)|Yes (Optional)|
+|Automatic File Safe Shutdown Functionality|Yes|Yes|Yes|
+|Raspberry Pi® Reset via POGO Pin |Yes|Yes|Yes|
+|Automatic Restart on Power Return|Yes|Yes|Yes|
+|Events Triggered RTCC Based System Actions Scheduler|Yes|Yes|Yes|
+|Real Time Raspberry Pi® current measure|No|Yes|No|
+|Real Time Battery Capacity Measure|No|Yes <br>(System Current Consumption)|No|
+|Secondary Serial Port (based on software driver)|Yes (Future Update)|Yes (Future Update)|Yes (Future Update)|
+|IR interface|Yes (IR Sold Separately)|Yes (IR Sold Separately)|Yes (IR Sold Separately)|
+|Optimised design for a very low noise A/D operation|Yes|Yes|Yes|
+|Optimised Ultra Low Power design for a long time Battery System Operation|Yes|Yes|Yes|
+|XTEA Encryption |Yes|Yes|Yes|
+|Extended Raspberry Pi® Watch-Dog (Still Alive)|Yes|Yes|Yes|
+|System Monitoring|Battery Voltage, Raspberry Pi® Voltage, Temperature|Battery Voltage, Raspberry Pi® Voltage, External Voltage, Current Consumption by Raspberry Pi®, Temperature|Battery Voltage, Raspberry Pi® Voltage, Temperature|
+|I2C PIco Programmer Interface |Yes|Yes|Yes|
+|RS232 @command Interface on Primary and Secondary Serial Port|Yes|Yes|Yes|
+|Bootloader for Live Firmware Update|Yes|Yes|Yes|
+|PCB Specification|4 Layers <br>2 OZ Cupper, 6mils/6mils <br>Immersion Gold Plated <br>PB Free Bismuth based alloy assembly|4 Layers <br>2 OZ Cupper, 6mils/6mils <br>Immersion Gold Plated <br>PB Free Bismuth based alloy assembly|4 Layers <br>2 OZ Cupper, 6mils/6mils <br>Immersion Gold Plated <br>PB Free Bismuth based alloy assembly|
 
 ## Battery Options
 
