@@ -35,9 +35,9 @@ Finally, the UPS PIco HV3.0A features an implemented Automatic Temperature Contr
 |Model|UPS PIco HV3.0 A Stack 450|UPS PIco HV3.0 A Stack 450 Plus|UPS PIco HV3.0 A Top End 450|
 |:---:|:---:|:---:|:---:|
 |**Features**||||
-|Raspberry Pi® System Compatibility |Raspberry Pi® 3, Pi2, Pi3, Pi Zero, A+, B+|Raspberry Pi® 3, Pi2, Pi3, Pi Zero, A+, B+|Raspberry Pi® 3, Pi2, Pi3, Pi Zero, A+, B+|
-| | | | |
-| | | | |
+|Raspberry Pi® System Compatibility|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|
+|Case Compatibility|PiModules PIco Case  ModMyPi Cases|PiModules PIco Case  ModMyPi Cases|PiModules PIco Case  ModMyPi Cases  Compact HAT Header|
+|GPIO Usage| | | |
 | | | | |
 | | | | |
 | | | | |
