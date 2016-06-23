@@ -20,8 +20,8 @@
 |UPS|UPS Standby Type, with Switchover time of 360 uS, during switching time the protected system is powered by auxiliary online power source for maximum 10mS, therefore no power gap on GPIO during switching time|UPS Standby Type, with Switchover time of 360 uS, during switching time the protected system is powered by auxiliary online power source for maximum 10mS, therefore no power gap on GPIO during switching time|UPS Standby Type, with Switchover time of 360 uS, during switching time the protected system is powered by auxiliary online power source for maximum 10mS, therefore no power gap on GPIO during switching time|
 |Powering Monitoring Point|Raspberry Pi® GPIO 5V|Raspberry Pi® GPIO 5V|Raspberry Pi® GPIO 5V|
 |UPS Activation Powering Triggers|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|
-| | | | |
-| | | | |
+|Cable Powering Reactivation|After 3s of continuously cable powering (without spikes)|After 3s of continuously cable powering (without spikes) on any cable power source (GPIO or External)|After 3s of continuously cable powering (without spikes)|
+|Power Source|GPIO Pins 5V @ 2.5A|GPIO Pins 5V @ 2.5A <br> External Input 6VDC - 28VDC @ 3A Max|GPIO Pins 5V @ 2.5A|
 | | | | |
 
 ## Battery Options
