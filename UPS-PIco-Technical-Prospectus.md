@@ -2,6 +2,14 @@
 ## Uninterruptible Power Supply with Peripherals and I2C control Interface
 ### Designed for the Raspberry Pi® 3 and Fully Compatible with Raspberry Pi® 2, Pi Zero, A+, B+. HAT Compliant.
 
+### UPS PIco
+
+![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-1.png)
+
+### UPS PIco Plus
+
+![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-2.jpg)
+
 The UPS PIco HV3.0A is an advanced uninterruptible power supply for the Raspberry Pi® 3 that adds a wealth of innovative power back-up functionality and development features to the innovative micro-computer!
 
 Especially designed for the Raspberry Pi® 3 but also compatible with all other models; offers now 3A current from the External Power Supply or battery backup, 3 User Keys, 3 User LEDs, 3 different types of high capacity batteries, 2 x 3 pins bi-stable relay (Zero Power), as also 3 x A/D 12 bit converters pre-adjusted to 5V, 15V and 30V conversion. Now, with additional External Supply Powering Input; that have implemented Dynamic Power Tracking; automatically adjust battery charging current according to power availability from  50mA – 1000 mAh. This feature has been especially designed to support Solar Panel Powering Raspberry Pi® Systems, as it is adjusting the charging battery current to available Sunning conditions. The External Supply Powering Input is able to accept power from 7 V DC up to 28 V DC !! Thus make it ideal for Cars, Trucks, Buses and any industrial applications where voltage is usually higher than 24V DC. The External Supply Powering Input is equipped with Over Current protection, Over Voltage as also with Zero Voltage Drop Inverse Polarity Protection in order to use all available energy from the Solar Panel in case of use. The New UPS PIco HV3.0A is an all-in-one tool that allows implementing easy and fast simple applications as also complicated projects providing a set of pre installed peripherals.
@@ -31,3 +39,5 @@ The UPS PIco HV3.0A can also be equipped with an optional Infra-Red Receiver whi
 The embedded Electromagnetic Programmable Sounder can be used as a simple buzzer but also as music player due to implemented sound generator and dedicated programmer interface.
 
 Finally, the UPS PIco HV3.0A features an implemented Automatic Temperature Control PWM FAN controller, and can be equipped with a micro fan kit, which enables the use of the Raspberry Pi® in extreme conditions including very high temperature environments. The FAN speed is automatically adjusted according to system temperature conditions semi linearly (8 levels) from 0 % (FAN is OFF) up to 100% by increasing and decreasing rotation speed. Thus guarantees the possible lowest level of noise and always cool Raspberry Pi® 3.
+
+![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
