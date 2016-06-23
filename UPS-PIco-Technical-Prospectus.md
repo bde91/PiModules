@@ -33,7 +33,7 @@ The embedded Electromagnetic Programmable Sounder can be used as a simple buzzer
 Finally, the UPS PIco HV3.0A features an implemented Automatic Temperature Control PWM FAN controller, and can be equipped with a micro fan kit, which enables the use of the Raspberry Pi® in extreme conditions including very high temperature environments. The FAN speed is automatically adjusted according to system temperature conditions semi linearly (8 levels) from 0 % (FAN is OFF) up to 100% by increasing and decreasing rotation speed. Thus guarantees the possible lowest level of noise and always cool Raspberry Pi® 3.
 
 |Model|UPS PIco HV3.0 A Stack 450|UPS PIco HV3.0 A Stack 450 Plus|UPS PIco HV3.0 A Top End 450|
-|:---:|:---:|:---:|:---:|
+|:-------------------------------:|:-------------------------------:|:-------------------------------:|:-------------------------------:|
 |**Compatibility Features**||||
 |Raspberry Pi® System Compatibility|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|
 |Case Compatibility|PiModules PIco Case <br> ModMyPi Cases|PiModules PIco Case <br> ModMyPi Cases|Official RPi Case  <br>  PiModules PIco Case <br> ModMyPi Cases <br> Compact HAT Header|
