@@ -1,3 +1,1 @@
-Designed and Manufactured by PiModules and ModMyPi
-www.pimodules.com
-www.modmypi.com
+Designed and Manufactured by PiModules (www.pimodules.com) and ModMyPi (www.modmypi.com)
