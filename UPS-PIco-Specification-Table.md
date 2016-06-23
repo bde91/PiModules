@@ -1,7 +1,7 @@
 # UPS PIco Specification Table
 
 |Model|UPS PIco HV3.0 A Stack 450|UPS PIco HV3.0 A Stack 450 Plus|UPS PIco HV3.0 A Top End 450|
-|:-------------------------------:|:-------------------------------:|:-------------------------------:|:-------------------------------:|
+|:---:|:----:|:---:|:---:|
 |**Compatibility Features**||||
 |Raspberry Pi® System Compatibility|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|
 |Case Compatibility|PiModules PIco Case <br> ModMyPi Cases|PiModules PIco Case <br> ModMyPi Cases|Official RPi Case  <br>  PiModules PIco Case <br> ModMyPi Cases <br> Compact HAT Header|
@@ -9,8 +9,11 @@
 | Permanent use of I2C (User selectable addresses)|GND, 5V, SDA0, SCL0  <br> I2C Addresses: 68 69 6a 6b 6c <br> 6d 6e 6ff|GND, 5V, SDA0, SCL0  <br> I2C Addresses: 68 69 6a 6b 6c <br> 6d 6e 6ff|GND, 5V, SDA0, SCL0  <br> I2C Addresses: 68 69 6a 6b 6c <br> 6d 6e 6ff|
 |Selectable use of Raspberry Pi® RS232|TXD0, RXD0|TXD0, RXD0|TXD0, RXD0|
 |Selectable use of Raspberry Pi® GPIO|GPIO_GEN22: Pulse Train <br> GPIO_GEN27: Shutdown <br> GPIO_GEN18: IR Receiver <br> GPIO_GEN4: 1-Wire|GPIO_GEN22: Pulse Train <br> GPIO_GEN27: Shutdown <br> GPIO_GEN18: IR Receiver <br> GPIO_GEN4: 1-Wire|GPIO_GEN22: Pulse Train <br> GPIO_GEN27: Shutdown <br> GPIO_GEN18: IR Receiver <br> GPIO_GEN4: 1-Wire|
-|**Battery and Charging**||||
+|**Supported Batteries Types**|All batteries are supplied with integrated high current cable.|||
+|LiPO 3.7V (450 Cycles)|Default: 450 mAh <br> Optional: 4Ah|Default: 450 mAh <br>Optional: 4Ah <br>Optional: 8Ah|Default: 450 mAh <br> Optional: 4Ah|
+|LiFePO4 3.2V (2000 Cycles)|Optional: 4Ah|Optional: 4Ah <br>Optional: 8Ah <br>Optional: 12Ah|Optional: 4Ah|
 |Charging Rate|Continuous @ 256 mAh|Automatic Dynamic Power Tracing <br> Charging Current: 50mA – 1A <br> (Triggered by voltage changes on the GPIO or External Source)|Continuous @ 256 mAh|
+|**Charging**||||
 |Charging Mode |Automatically Selected : Full Charging Cycle & Trickle Charging|Automatically Selected : Full Charging Cycle & Trickle Charging|Automatically Selected : Full Charging Cycle & Trickle Charging|
 |Battery Protection |On board cut-off protection system: thermal, over-charge or over-discharge|On board cut-off protection system: thermal, over-charge or over-discharge|On board cut-off protection system: thermal, over-charge or over-discharge|
 |Battery Electrical Isolation System|Isolated until initial boot|Isolated until initial boot|Isolated until initial boot|
@@ -69,10 +72,3 @@
 |RS232 @command Interface on Primary and Secondary Serial Port|Yes|Yes|Yes|
 |Bootloader for Live Firmware Update|Yes|Yes|Yes|
 |PCB Specification|4 Layers <br>2 OZ Cupper, 6mils/6mils <br>Immersion Gold Plated <br>PB Free Bismuth based alloy assembly|4 Layers <br>2 OZ Cupper, 6mils/6mils <br>Immersion Gold Plated <br>PB Free Bismuth based alloy assembly|4 Layers <br>2 OZ Cupper, 6mils/6mils <br>Immersion Gold Plated <br>PB Free Bismuth based alloy assembly|
-
-## Battery Options
-
-|Battery Options|UPS PIco HV3.0 A Stack 450|UPS PIco HV3.0 A Stack 450 Plus|UPS PIco HV3.0 A Top End 450|
-|:---:|:---:|:---:|:---:|
-|**Standard**||||
-|||||
