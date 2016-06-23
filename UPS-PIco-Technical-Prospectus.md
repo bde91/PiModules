@@ -37,7 +37,10 @@ Finally, the UPS PIco HV3.0A features an implemented Automatic Temperature Contr
 |**Features**||||
 |Raspberry Pi® System Compatibility|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|Raspberry Pi A+, B+, 2, 3 & Zero|
 |Case Compatibility|PiModules PIco Case  ModMyPi Cases|PiModules PIco Case  ModMyPi Cases|PiModules PIco Case  ModMyPi Cases  Compact HAT Header|
-|GPIO Usage| | | |
+|**GPIO Usage**| | | |
+| Permanent use of I2C (User selectable addresses)|GND, 5V, SDA0, SCL0  I2C Addresses: 68 69 6a 6b 6c   6d 6e 6ff|GND, 5V, SDA0, SCL0  I2C Addresses: 68 69 6a 6b 6c   6d 6e 6ff |GND, 5V, SDA0, SCL0  I2C Addresses: 68 69 6a 6b 6c   6d 6e 6ff |
+|Selectable use of Raspberry Pi® RS232|TXD0, RXD0|TXD0, RXD0|TXD0, RXD0|
+|Selectable use of Raspberry Pi® GPIO|* GPIO_GEN22 - Pulse Train Generator * GPIO_GEN27 - System Shutdown Initiator * GPIO_GEN18 - IR Receiver * GPIO_GEN4 - 1-Wire|* GPIO_GEN22 - Pulse Train Generator * GPIO_GEN27 - System Shutdown Initiator * GPIO_GEN18 - IR Receiver * GPIO_GEN4 - 1-Wire|* GPIO_GEN22 - Pulse Train Generator * GPIO_GEN27 - System Shutdown Initiator * GPIO_GEN18 - IR Receiver * GPIO_GEN4 - 1-Wire|
 | | | | |
 | | | | |
 | | | | |
@@ -50,7 +53,3 @@ Finally, the UPS PIco HV3.0A features an implemented Automatic Temperature Contr
 | | | | |
 | | | | |
 | | | | |
-| | | | |
-| | | | |
-| | | | |
-
