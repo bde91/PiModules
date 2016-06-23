@@ -22,7 +22,46 @@
 |UPS Activation Powering Triggers|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|GPIO 5V pins <=4.65V Proprietary Algorithm of Falling Power Peak Analysis|
 |Cable Powering Reactivation|After 3s of continuously cable powering (without spikes)|After 3s of continuously cable powering (without spikes) on any cable power source (GPIO or External)|After 3s of continuously cable powering (without spikes)|
 |Power Source|GPIO Pins 5V @ 2.5A|GPIO Pins 5V @ 2.5A <br> External Input 6VDC - 28VDC @ 3A Max|GPIO Pins 5V @ 2.5A|
+|**HAT Compliance**| | | |
+|HAT EEPROM|Simulated HAT EEPROM on uC memory|Simulated HAT EEPROM on uC memory|Simulated HAT EEPROM on uC memory|
+|HAT Dimension|Compliant|Compliant|Compliant|
+|**PIco I/O Interface**| | | |
+|Independent from Raspberry Pi ® 3.3 V supply @200 mA|Yes|Yes|Yes|
+|ESD Protected 1-wire interface|Yes|Yes|Yes|
+|Independent from Raspberry Pi ® 5.0 V supply @750 mA with battery Back-up (raspberry Pi ® can be OFF when this power source is running)|Yes|Yes|Yes|
+|12 Bit A/D converters ESD protected, pre-scaled to 5V, 15V and 30V with Sampling rate 100K SPS, buffered|Yes|Yes|Yes|
+|3V3/5V0  RS232 Port that can be programmed as: primary Raspberry Pi® Port Secondary (independent from the Raspberry Pi®)|Yes|Yes|Yes|
+|Optical Isolated Interface (readable as digital or analogue)|No|Yes|No|
+|Primary 3 Pin Bi-stable (Zero Power) Relay Interface|Yes (Relay Supplied Separately)|Yes (Relay Supplied Separately)|Yes (Relay Supplied Separately)|
+|Relay Rating - Resistive|0.5A 125 VAC or 1A 30 VDC|0.5A 125 VAC or 1A 30 VDC|0.5A 125 VAC or 1A 30 VDC|
+|Relay Rating - Max Switching Current|2A|2A|2A|
+|Relay Rating - Max Switching Voltage|125VAC, 110VDC|125VAC, 110VDC|125VAC, 110VDC|
+|**PIco Terminals Block Extension PCB (Supplied Separately)**| | | |
+|12 V RS232 converter attached to primary or secondary Serial Port|Yes (Optional)|Yes (Optional)|Yes (Optional)|
+|Terminal Block on Each PIco I/O Interface listed above|Valid only for existing Interfaces|Yes|Valid only for existing Interfaces|
+|**PIco Plus Terminal Block Standard Interface**| | | |
+|DC in 6 – 28 V with Power Tracking|No|Yes|No|
+|Secondary 3 Pin Bi-stable (Zero Power) Relay Interface|Optional if Relay Installed|Yes|Optional if Relay Installed|
+|**Hardware User Interface**| | | |
+|System LEDs Indicators|UPS, BAT, CHG, HOT, FAN|UPS, BAT, CHG, HOT, FAN|UPS, BAT, CHG, HOT, FAN|
+|User LEDs Indicators|Blue, White, Red|Blue, White, Red|Blue, White, Red|
+|System Keys|RPiR, UPSR, FSSD|RPiR, UPSR, FSSD|RPiR, UPSR, FSSD|
+|User Programmable Keys|AKEY, BKEY, CKEY|AKEY, BKEY, CKEY|AKEY, BKEY, CKEY|
+|Audio Interface|Electromagnetic Transducer, with programmable sound duration and frequency, able to play music|Electromagnetic Transducer, with programmable sound duration and frequency, able to play music|Electromagnetic Transducer, with programmable sound duration and frequency, able to play music|
 | | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+
 
 ## Battery Options
 
