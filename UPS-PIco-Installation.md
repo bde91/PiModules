@@ -4,6 +4,10 @@ The UPS PIco utilises a Daemon (background process) to manage function, which re
 
 The UPS PIco is designed to operate on Raspian or other Operating Systems (OS) based on this platform. The UPS PIco has been tested on Raspian - Release date:2016-09-23, Kernel version:4.4. We cannot guarantee that the system will work on versions of Raspian previous to this, so please ensure that your OS is fully up to date by running the following update commands before attempting to install the UPS PIco.
 
+First, update your system's package list:
+
     sudo apt-get update
+
+Next, upgrade all your installed packages to their latest versions:
 
     sudo apt-get dist-upgrade
