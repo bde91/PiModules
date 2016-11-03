@@ -61,7 +61,15 @@ Then run at boot time with the following command:
 Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspberry Pi's GPIO, and turn the Raspberry Pi back on. The daemon should start automatically, and the UPS PIco should function as follows:
 
 UPS LED (Blue) Indications
-UPS LED is OFF	System is not running or is in Low Power Mode (only HW RTC is running)
-UPS LED is lighting continuously - System (PIco + RPi) is booting or shutting down
-UPS LED is blinking every 600 ms - System (PIco + RPi)  is running on cable powering (after booting time)
-UPS LED is blinking every 1800 ms - System (PIco + RPi)  is running on battery powering
+
+UPS LED is OFF  
+System is not running or is in Low Power Mode (only HW RTC is running)
+
+UPS LED is lighting continuously  
+System (PIco + RPi) is booting or shutting down
+
+UPS LED is blinking every 600 ms  
+System (PIco + RPi)  is running on cable powering (after booting time)
+
+UPS LED is blinking every 1800 ms  
+System (PIco + RPi)  is running on battery powering
