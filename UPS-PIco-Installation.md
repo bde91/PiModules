@@ -62,6 +62,6 @@ Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspb
 
 UPS LED (Blue) Indications
 UPS LED is OFF	System is not running or is in Low Power Mode (only HW RTC is running)
-UPS LED is lighting continuously	System (PIco + RPi) is booting or shutting down
-UPS LED is blinking every 600 ms	System (PIco + RPi)  is running on cable powering (after booting time)
-UPS LED is blinking every 1800 ms	System (PIco + RPi)  is running on battery powering
+UPS LED is lighting continuously - System (PIco + RPi) is booting or shutting down
+UPS LED is blinking every 600 ms - System (PIco + RPi)  is running on cable powering (after booting time)
+UPS LED is blinking every 1800 ms - System (PIco + RPi)  is running on battery powering
