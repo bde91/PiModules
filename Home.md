@@ -1,4 +1,4 @@
-# UPS PIco Wiki
+# PiModules Wiki
 
-Welcome to the UPS PIco! Here you'll find information on using all of the PiModule and ModMyPi collaborative products such as the UPS PIco, UPS PIco +, PowerMyPi and others!
+Welcome to the PiModules Wiki! Here you'll find information on using all of the PiModule and ModMyPi collaborative products such as the UPS PIco, UPS PIco +, PowerMyPi and others!
 
