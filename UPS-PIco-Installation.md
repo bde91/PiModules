@@ -45,3 +45,23 @@ Then proceed with the installation of the email package software
 Move to the PiModules git "upspico/picofssd" folder:
 
     cd PiModules/code/python/upspico/picofssd
+
+Then proceed with the installation of the picofssd daemons software:
+
+    sudo python setup.py install
+
+Once the script has been installed, it can be installed to the `SysVInit` system with the following command:
+
+    sudo update-rc.d picofssd defaults
+
+Then run at boot time with the following command:
+
+   sudo update-rc.d picofssd enable
+
+Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspberry Pi's GPIO, and turn the Raspberry Pi back on. The daemon should start automatically, and the UPS PIco should function as follows:
+
+UPS LED (Blue) Indications
+UPS LED is OFF	System is not running or is in Low Power Mode (only HW RTC is running)
+UPS LED is lighting continuously	System (PIco + RPi) is booting or shutting down
+UPS LED is blinking every 600 ms	System (PIco + RPi)  is running on cable powering (after booting time)
+UPS LED is blinking every 1800 ms	System (PIco + RPi)  is running on battery powering
