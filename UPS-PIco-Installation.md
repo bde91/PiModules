@@ -38,7 +38,7 @@ Then proceed with the installation of the email package software
 
     sudo python setup.py install
 
-**More information about the package usage and details are available at https://github.com/modmypi/PiModules**
+**[More information about the email broadcasting system is available here](https://github.com/modmypi/PiModules)**
 
 ## Install the System Monitoring & File Safe Shutdown Daemons
 
