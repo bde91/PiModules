@@ -28,11 +28,11 @@ Next, clone the Raspberry Pi daemons and email broadcasting system from the GitH
 
 This will clone the PiModules Git to your Raspberry Pi home directory.
 
-## Install the Email Broadcasting Package (package):
+## Install the Email Broadcasting Package:
 
-Move to the PiModules git folder:
+Move to the PiModules git "package" folder:
 
-    sudo cd PiModules/code/python/package
+    cd PiModules/code/python/package
 
 Then proceed with the installation of the email package software
 
@@ -40,6 +40,8 @@ Then proceed with the installation of the email package software
 
 **More information about the package usage and details are available at https://github.com/modmypi/PiModules**
 
-## Install the System Monitoring & File Safe Shutdown Daemons (picofssd):
+## Install the System Monitoring & File Safe Shutdown Daemons
 
-    cd ../upspico/picofssd
+Move to the PiModules git "upspico/picofssd" folder:
+
+    cd PiModules/code/python/upspico/picofssd
