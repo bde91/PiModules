@@ -1,1 +1,0 @@
-# UPS PIco Firmware Update
