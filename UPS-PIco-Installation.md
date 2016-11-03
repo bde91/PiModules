@@ -56,7 +56,7 @@ Once the script has been installed, it can be installed to the `SysVInit` system
 
 Then run at boot time with the following command:
 
-   sudo update-rc.d picofssd enable
+    sudo update-rc.d picofssd enable
 
 Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspberry Pi's GPIO, and turn the Raspberry Pi back on. The daemon should start automatically, and the UPS PIco should function as follows:
 
