@@ -1,6 +1,6 @@
 # UPS PIco Installation Guide
 
-The UPS PIco utilises a Daemon (background process) to manage function, which requires setup prior to installation and use of the UPS PIco.
+The UPS PIco utilises a Daemon (background process) to manage function, which requires setup prior to installation and use of the UPS PIco. This Daemon includes the email broadcasting system for PIco email alerts.
 
 The UPS PIco is designed to operate on Raspian or other Operating Systems (OS) based on this platform. The UPS PIco has been tested on Raspian - Release date:2016-09-23, Kernel version:4.4. We cannot guarantee that the system will work on versions of Raspian previous to this, so please ensure that your OS is fully up to date by running the following update commands before attempting to install the UPS PIco.
 
@@ -19,4 +19,8 @@ Next, ensure that Python is installed and updated, by using the following comman
 And update the following Python packages:
 
     sudo apt-get install git python-dev python-serial python-smbus python-jinja2 python-xmltodict python-psutil python-pip
+
+Next, clone the Raspberry Pi daemons and email broadcasting system from the GitHub using the following command:
+
+    sudo git clone https://github.com/modmypi/PiModules.git
 
