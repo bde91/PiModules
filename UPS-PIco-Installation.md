@@ -24,3 +24,4 @@ Next, clone the Raspberry Pi daemons and email broadcasting system from the GitH
 
     sudo git clone https://github.com/modmypi/PiModules.git
 
+This will clone the PiModules Git to your Raspberry Pi home directory
