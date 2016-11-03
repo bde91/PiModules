@@ -11,3 +11,12 @@ First, update your system's package list:
 Next, upgrade all your installed packages to their latest versions:
 
     sudo apt-get dist-upgrade
+
+Next, ensure that Python is installed and updated, by using the following command:
+
+    sudo apt-get install python-rpi.gpio
+
+And update the following Python packages:
+
+    sudo apt-get install git python-dev python-serial python-smbus python-jinja2 python-xmltodict python-psutil python-pip
+
