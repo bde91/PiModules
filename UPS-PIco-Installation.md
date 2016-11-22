@@ -4,6 +4,9 @@
 
 The UPS PIco utilises a Daemon (background process) to manage function, which requires setup prior to installation and use of the UPS PIco. This Daemon includes the email broadcasting system for PIco email alerts.
 
+**For interaction, the UPS PIco HV3.0 uses fixed Raspberry Pi GPIOs to send the pulse train and initiate the File Safe Shutdown Procedure (FSSD). The following pins should not be used by any other applications:**
+**GPIO_GEN27 and GPIO_GEN22**
+
 The UPS PIco is designed to operate on Raspian or other Operating Systems (OS) based on this platform. The UPS PIco has been tested on Raspian - Release date:2016-09-23, Kernel version:4.4. We cannot guarantee that the system will work on versions of Raspian previous to this, so please ensure that your OS is fully up to date by running the following update commands before attempting to install the UPS PIco.
 
 First, update your system's package list:
