@@ -14,7 +14,7 @@ The first task which is done by the UPS PIco after reset is to check if bootload
 
 There are two ways to invoke the bootloader mode and to upload the new firmware, automatic and manual.
 
-## Firmware Update - Clear the UART
+## Firmware Update Prerequisite - Clear the UART
 
 To update the firmware on the UPS PIco, the Raspberry Pi must have no access to UART. This requires Bluetooth and serial console to be disabled:
 
