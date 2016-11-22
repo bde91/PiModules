@@ -40,11 +40,11 @@ To stop it from starting again when rebooted:
 
     sudo systemctl disable serial-getty@ttyAMA0.service
 
-To re-enable it when you have finished updating firmware (ONLY DO THIS AFTER THE FIRMWARE UPDATE):
+To re-enable it when you have finished (**ONLY DO THIS AFTER THE FIRMWARE UPDATE**):
 
     sudo systemctl enable serial-getty@ttyAMA0.service
 
-To start it without rebooting (ONLY DO THIS AFTER THE FIRMWARE UPDATE):
+To start it without rebooting (**ONLY DO THIS AFTER THE FIRMWARE UPDATE**):
 
     sudo systemctl start serial-getty@ttyAMA0.service
 
