@@ -1,4 +1,4 @@
-# UPS PIco HV3.0 A Stack/Top End 450 Description
+#UPS PIco HV3.0 A Stack 450
 
 The UPS PIco is an advanced uninterruptible power supply for the Raspberry Pi A+/B+/2/3, that adds a wealth of innovative power back-up functionality and development features to the innovative microcomputer! The UPS PIco will automatically shut-down your Raspberry Pi if there is a power failure, and can be set to automatically monitor and reboot your Pi once power has been restored!
 
