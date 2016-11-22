@@ -8,5 +8,6 @@ The following PICo addresses are assigned to the following entities:
 
 ## 0x69 ->UPS PIco HV3.0 Module Status Registers Specification
 
-
+|Address|Name|Size|Type|R/W|Explanation|
+|:---:|:----:|:---:|:---:|:---:|:---:|
 
