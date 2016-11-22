@@ -63,17 +63,41 @@ Then run at boot time with the following command:
 
 Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspberry Pi's GPIO, and turn the Raspberry Pi back on. The daemon should start automatically, and the UPS PIco should function as follows via the Blue UPS LED:
 
-**UPS LED is OFF  **
+**UPS LED is OFF**  
 System is not running, or is in Low Power Mode (only HW RTC is running)
 
-**UPS LED is lighting continuously  **
+**UPS LED is lighting continuously**  
 System (PIco + RPi) is booting or shutting down
 
-**UPS LED is blinking every 600 ms  **
+**UPS LED is blinking every 600 ms**  
 System (PIco + RPi)  is running on cable power (after booting time)
 
-**UPS LED is blinking every 1800 ms  **
+**UPS LED is blinking every 1800 ms**  
 System (PIco + RPi)  is running on battery power
 
 ## Install the UPS PIco HV3.0 Hardware RTC
 
+Proceed with the installation of the i2c-tools using the following command
+
+    sudo apt-get install i2c-tools
+
+Now edit the /etc/modules file 
+
+    sudo nano /etc/modules
+
+Make sure to have the following items in the file and add what is missing 
+
+    i2c-bcm2708
+    i2c-dev
+    rtc-ds1307
+
+Now edit the file /etc/rc.local 
+
+    sudo nano /etc/rc.local
+
+and Add the following lines, before “exit 0” 
+
+    echo ds1307 0x68 > /sys/class/i2c-adapter/i2c-1/new_device
+    ( sleep 4; hwclock -s ) &
+ 
+?
