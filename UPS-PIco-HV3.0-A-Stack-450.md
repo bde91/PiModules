@@ -2,7 +2,9 @@
 
 The UPS PIco is an advanced uninterruptible power supply for the Raspberry Pi A+/B+/2/3, that adds a wealth of innovative power back-up functionality and development features to the innovative microcomputer! The UPS PIco will automatically shut-down your Raspberry Pi if there is a power failure, and can be set to automatically monitor and reboot your Pi once power has been restored!
 
-The UPS PIco HV3.0A Stack & Top End versions feature a 5V 3A output, designed for use on the latest Raspberry Pi 3!
+The UPS PIco HV3.0A Stack version features a 5V 3A output, designed for use on the latest Raspberry Pi 3!
+
+![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/update-2/DSC_0794.jpg)
 
 The standard UPS PIco is equipped with a 450mAh LiPO battery specially designed to enable safe shutdown during a power cut. Additionally, this can be easily upgraded to the extended 4000mAh or 8000mAh versions, which enables prolonged use of a Raspberry Pi for up to 16 hours without a power supply connected!
 
@@ -12,4 +14,38 @@ The UPS PIco is powered and the battery pack intelligently charged via the GPIO 
 
 The UPS PIco can also be equipped with an optional Infra-Red Receiver which is routed directly to GPIO18 via the PCB for remote IR operations. Additionally the PIco includes an Automatic Temperature Control PWM FAN controller, and can be equipped with a Micro Fan Kit, which enables the use of the Raspberry Pi in extreme conditions including very high temperature environments. The UPS PIco is designed to be 100% compliant with HAT standards for the Raspberry Pi and includes a Gold Plated Reset Pin, with install locations for the Raspberry Pi Zero, B+/2 and 3.
 
-Feature List
+![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/update-2/ups-pico-stack.png)
+
+**Feature List**
+
+* Raspberry Pi HAT Compliant
+* Plug and Play
+* Smart Uninterruptible Power Supply (UPS)
+* Integrated 450mAh LiPO Battery (8-10 Minutes of Power Back-Up)
+* Intelligent Automatic Charger
+* No Additional External Power Required
+* Additional 4000 mAh or 8000mAh battery available for up to 16 Hours Run-Time (Not Included)
+* 5V 3A Power Backup for even the most demanding Pi 3 set ups.
+* Integrated Software Simulated Real Time Clock (RTC) with Battery Back-Up
+* File Safe Shutdown Functionality
+* Raspberry Pi B+/2/3 Activity Pin
+* PWM FAN control (Fan Not Included)
+* 3 User Defined LEDs
+* 3 User Defined Buttons
+* Integrated Buzzer for Audible Alerts (Not Soldered)
+* Status Monitoring - Powering Voltage, UPS Battery Voltage and Temperature
+* I2C PICo Interface for Control and Monitoring
+* RS232 Raspberry Pi Interface for Control and Monitoring
+* XTEA Based Cryptography User Software Protection
+* 2 Level  Watch-dog Functionality with FSSD and Hardware Reset
+* Raspberry Pi Hardware Reset Button via Spring Test Pin (Gold Reset Pin Included)
+* Jumpers for Raspberry Pi  Pin Functionality Selection
+* Stackable Header  for Add-On Boards
+* Boot Loader for Live Firmware Update
+* Compatible with Intelligent IR Remote Power ON/OFF (PowerMyPi)
+* Integrated ESD-Protected 2 Channel A/D 10 Bit Converters 0-5.2V
+* Integrated ESD-Protected 1-Wire Interface
+* Labeled J8 Raspberry Pi GPIO Pins for Easy Plug & Play
+* Infra Red Receiver Sensor Interface (IR Not Included)
+* Upgradable with PIco Add-on Boards
+* Fits Inside Most Existing Cases
