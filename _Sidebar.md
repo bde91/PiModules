@@ -5,3 +5,5 @@
 [[UPS PIco Comparison Table|UPS PIco Comparison Table]]  
 [[UPS PIco Firmware Update Guide|UPS PIco Firmware Update]]  
 [[UPS PIco Installation Guide|UPS PIco Installation]]  
+[[UPS PIco Programmers Registers|UPS PIco Programmers Registers]]  
+
