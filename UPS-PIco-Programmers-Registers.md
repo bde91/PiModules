@@ -18,10 +18,10 @@ To find the battery level Battery Level value in 10th of mili volts
 
     sudo i2cget -y 1 0x69 0x08 w
 
-## 0x69 Variable Table
+### 0x69 Variable Table
 
 |**Address**| **Name**|**Size**|**Type**|**R/W**|**Explanation of Register Function**|
-|:---:|:----:|:---:|:---:|:---:|:---:|
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |**0x00**|mode|Byte|Mirror|Read|Powering Mode – Read ONLY, Writing has no effect on the system and will be overwritten by UPS PIco HV3.0 with the new value 0x01 - RPI\_MODE (means cable powering mode) 0x02 - BAT\_MODE|
 |**0x08**|batlevel|Word|Mirror|Read|Means value of Battery Voltage in 10th of mV in BCD format|
 |**0x0a** |rpilevel|Word|Mirror|Read|Means value of Voltage supplying RPi on J8 5V Pin in 10th of mV in BCD format|
@@ -33,3 +33,36 @@ To find the battery level Battery Level value in 10th of mili volts
 |**0x24**|pv|-|-|-|PCB Version - current available versions: A|
 |**0x25**|bv|-|-|-|Bootloader Version - current available versions: S - BL\_PIco HV 3.0A Stack/TopEnd default LP Battery F - BL\_PIco HV 3.0A Stack/TopEnd default LF Battery P - BL\_PIco HV 3.0A Plus default LP Battery Q - BL\_PIco HV 3.0A Plus default LF Battery|
 |**0x26**|fv|-|-|-|Firmware Version: current 0x0E dated 01/11/2016|
+
+## 0x6A -\> UPS PIco Hardware RTC Registers Direct Access Specification
+
+### 0x6A Variable Table
+
+|**Address**| **Name** | **Size** | **Type** | **R/W** | **Explanation**  |
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|**0x00**|seconds|Byte     | Mirror   | Read    | seconds in BCD   |
+|**0x01**|minutes|Byte     | Mirror   | Read    | minutes in BCD   |
+|**0x02**|hours|Byte     | Mirror   | Read    | hours in BCD     |
+|**0x03**|wday |Byte     | Mirror   | Read    | week day in BCD  |
+|**0x04**|mday|Byte     | Mirror   | Read    | month day in BCD |
+|**0x05**|month|Byte     | Mirror   | Read    | month in BCD     |
+|**0x06**|year|Byte     | Mirror   | Read    | year in BCD      |
+
+## 0x6B -\> UPS PIco Module Commands
+
+### 0x6B Variable Table
+
+| **Address** | **Name**        | **Size** | **Type** | **R/W** | **Explanation**|
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|**0x00**|pico_state|Byte|Common|R/W|**Write: 0xcc** – Unconditional File Safe Shutdown and (and Power OFF when battery powered) **Write: 0xdd** - then restore factory defaults Will stay in the values of 0xdd until factory defaults restored, and then will be set to 0x00 **Write: 0xee** - Reset the UPS PIco CPU, it cause start-up values i.e. RTC will be set to 01/01/2000 **Write:** 0xff - Call the UPS PIco Bootloader, **Orange** Led will be light. Recover from this state can be done **only** by pressing the RST button, new firmware upload or automatically after 16 seconds if nothing happen. All interrupts are disabled during this procedure. It should be used with RPi Uploading firmware script. Use it very carefully and only when is needed – when firmware uploading. Do not play with it; this is not toy functionality. **Powering of the pair UPS PIco+RPi must be done via RPi micro USB socket during boot loading process due to following UPS PIco Resets after firmware uploading or when returning from this mode.**  **Due to required protection for the RPi from the unconditional reset (files corruption), it is not possible to enter to this mode when system is powered in a different way than in RPI Powering Mode.**|
+|**0x01**|bat_run_time|Byte|Common|R/W|**On Battery Powering Running Time when cable power loses or not exist. After that time a File Safe Shut Down Procedure will be executed and System will be shut downed without restart. Battery power will be disconnected. System is in sleep mode (LPR) and RTC is running. If Raspberry Pi cable power returns again system will be start automatically.**  **If during the sleep mode (LPR) the F button will be pressed for longer time than 2 seconds (with battery or cable powering) Raspberry Pi will re-start again.**  **Value of 0xff (255) disable this timer, and system will be running on battery powering until battery discharge to 3.4V for LP battery and 2.8V fro LF Battery type. Factory default value is 60 seconds Value higher than 15 seconds are only accepted Each number represent 1 minute of Battery Running. Default Value is 0, and the highest Value is 0xFE. If user will enter i.e. 2, the Battery Running time will be 60 seconds + 2 x 60 seconds = 180 seconds. After that time system will be shutdown. If user after that will press again F button system will restart and run for 180 seconds again and then shutdown. Read:** Anytime, Return actual **fssd\_timeout** value **Write:** 0x00 – 0xFF **Any change on this register will cause immediate writing of the new value to the PIco EEPROM**|
+|**0x09**|User LED Orange|Byte|Common|R/W|**User LED Orange ON - Write:** 0x01 **User LED Orange OFF - Write:** 0x00|
+|**0x0A**|User LED Green|Byte|Common|R/W|**User LED Green ON - Write:** 0x01 **User LED Green OFF - Write:** 0x00|
+|**0x0B**|User LED Blue|Byte|Common|R/W|**User LED Blue ON - Write:** 0x01 **User LED Blue OFF - Write:** 0x00|
+|**0x0C**|brelay|Byte|Common|R/W|**Zero Power Bi Stable Relay**  **Write:** 0x01 Set **Write:** 0x01 Reset|
+|**0x0D**|bmode|Byte|Common|R/W|**Integrated Sounder Mode Read:** Anytime, Return actual **bmode** value **Write:** 0x00 – Unconditional Disable the Sounder **Write:** 0x01 – Unconditional Enable the Sounder|
+|**0x0E**|bfreq|Word|Common|R/W| **Frequency of sound in Hz**|
+|**0x10**|bdur|Byte|Common|R/W| **Duration of sound in 10th of ms (10 = 100 ms)**|
+|**0x11**|fmode|Byte|Common|R/W| **Integrated Fan Running Mode Read:** Anytime, Return actual **fmode** value **Write:** 0x00 – Unconditional Disable the FAN with selected speed from the **fspeed Write:** 0x01 – Unconditional Enable the FAN FAN with selected speed from the **fspeed** When UPS PIco is going down to the LPR mode, the FAN is automatically disabled, and enabled again when the UPS PIco returns to normal work|
+|**0x12**|fspeed|Byte|Common|R/W|**Integrated Fan Speed Read:** Anytime, Return actual **fspeed** value **Write:** 00 – Selected speed when ON is 0% (not running) **Write:** 100 – Selected speed when ON is 100% (full speed running) **Any other (0-100) number is allowed and means % of speed and current consumption**|
+|**0x13**|fstat|Byte|Mirror|Read| **Read:** Anytime, Return actual **if FAN** is actually running or not (for remote users)|
