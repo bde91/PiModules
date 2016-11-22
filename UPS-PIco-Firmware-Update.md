@@ -52,10 +52,11 @@ To start it without rebooting (ONLY DO THIS AFTER THE FIRMWARE UPDATE):
 
 To update the firmware automatically you need to invoke the bootloader with the following commands:
 
+    sudo i2cset -y 1 0x6b 0x00 0xff
+
 The UPS_PIco_HV3.0_main.hex should be replaced with the name of the last firmware update, or the firmware you wish to use.
 When firmware starts the upload procedure, the Orange User LED will lit, and then when firmware starts uploading the User Blue Led will Lit and UPS LED will be blinking.
 
-    sudo i2cset -y 1 0x6b 0x00 0xff
     sudo python 9600_picofuHV3.0.py -v -f UPS_PIco_HV3.0_main.hex
 
 Once complete the system with output ALL Done :) Ready to go. . .
@@ -67,3 +68,22 @@ We would recommend that you now shutdown your Pi and UPS PiCo completely in orde
 In this case the system should output 0xXX, signifying that the firmware has updated correctly.
 
 ## Manual Firmware Update
+
+The UPS PiCo has the ability to invoke the bootloader manually, via the on board buttons. You can do this instead of using the automatic initiation outlined above.
+
+The following procedure needs to be followed:
+
+* Press and hold the UR button
+* Continue to hold the UR button, and press and hold the F button.
+* Release the UR button, but keep holding the F button
+* Release the F button
+* The User Orange LED will light, and system will be able to receive the firmware update
+
+Then write the following command on the Raspberry Pi command line:
+
+The UPS_PIco_HV3.0_main.hex should be replaced with the name of the last firmware update, or the firmware you wish to use.
+When firmware starts the upload procedure, the Orange User LED will lit, and then when firmware starts uploading the User Blue Led will Lit and UPS LED will be blinking.
+
+    sudo python 9600_picofuHV3.0.py -v -f UPS_PIco_HV3.0_main.hex
+
+If within 16 second after bootloader initiation the firmware will be not initiated the UPS PIco HV3.0 will be reset to normal working conditions by internal Watch Dog mechanism. This has been implemented for security reasons, if firmware is uploaded remotely. 
