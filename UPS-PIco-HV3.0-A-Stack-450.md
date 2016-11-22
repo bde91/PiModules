@@ -26,7 +26,7 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * No Additional External Power Required
 * Additional 4000 mAh or 8000mAh battery available for up to 16 Hours Run-Time (Not Included)
 * 5V 3A Power Backup for even the most demanding Pi 3 set ups.
-* Integrated Software Simulated Real Time Clock (RTC) with Battery Back-Up
+* Integrated Hardware Real Time Clock (RTC) with Battery Back-Up
 * File Safe Shutdown Functionality
 * Raspberry Pi B+/2/3 Activity Pin
 * PWM FAN control (Fan Not Included)
