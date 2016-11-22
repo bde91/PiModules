@@ -66,3 +66,48 @@ To find the battery level Battery Level value in 10th of mili volts
 |**0x11**|fmode|Byte|Common|R/W| **Integrated Fan Running Mode Read:** Anytime, Return actual **fmode** value **Write:** 0x00 – Unconditional Disable the FAN with selected speed from the **fspeed Write:** 0x01 – Unconditional Enable the FAN FAN with selected speed from the **fspeed** When UPS PIco is going down to the LPR mode, the FAN is automatically disabled, and enabled again when the UPS PIco returns to normal work|
 |**0x12**|fspeed|Byte|Common|R/W|**Integrated Fan Speed Read:** Anytime, Return actual **fspeed** value **Write:** 00 – Selected speed when ON is 0% (not running) **Write:** 100 – Selected speed when ON is 100% (full speed running) **Any other (0-100) number is allowed and means % of speed and current consumption**|
 |**0x13**|fstat|Byte|Mirror|Read| **Read:** Anytime, Return actual **if FAN** is actually running or not (for remote users)|
+
+## **Events Triggered RTC Based System Actions Scheduler**
+
+**Not Unlocked in the firmware yet**
+
+## 0x6c -\> Start Time Stamp
+
+**Not Unlocked in the firmware yet**
+
+| **Address** | **Name** | **Size** | **Type** | **R/W** | **Explanation**                                              |
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **0x00**    | active   | Byte     | Common   | R/W     | Activation Stamp 0x00 not active(Start), 0xff active (Start) |
+| **0x01**    | minute   | Byte     | Common   | R/W     | Starting Minute of hour in BCD - 2 digits (0-59) i.e. 22     |
+| **0x02**    | hour     | Byte     | Common   | R/W     | Starting Hour of the Day in BCD - 2 digits (0-23) i.e. 22    |
+| **0x03**    | mday     | Byte     | Common   | R/W     | Starting Day of the Month in BCD - 2 digits (1-31) i.e. 22   |
+| **0x04**    | month    | Byte     | Common   | R/W     | Starting Month in BCD - 2 digits (1-12) i.e. 12              |
+| **0x05**    | year     | Byte     | Common   | R/W     | Starting Year in BCD - 2 digits (0-99) i.e. 16               |
+
+##0x6d -\> Running Time Stamp
+
+| **Address**       | **Name**      | **Size** | **Type** | **R/W** | **Explanation**|
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **0** or **0x00** | D\_repetition | Byte     | Common   | R/W     | Days repetition in BCD 2 digits (0-99) every XX days: 00 – not repeated (only once if all repetitions are 0) 1-99 – every 1-99 days i.e. 7 means every week (i.e. every Monday) i.e. 10 means every 10 days i.e. 1 means every day |
+| **1** or **0x01** | H\_repetition | Byte     | Common   | R/W     | In BCD 2 digits (0-23) every XX days: 00 – not repeated (only once if all repetitions are 0) 1-23 – every 1-23 hours i.e. 7 means every 7 hours                                                                                    |
+| **2** or **0x02** | M\_repetition | Byte     | Common   | R/W     | In BCD 2 digits (1-59) every XX minutes: 00 – not repeated (only once if all repetitions are 0) 1-59 – every 1-59 minutes i.e. 7 means every 7 minutes                                                                             |
+| **3** or **0x03** | H\_Duration   | Byte     | Common   | R/W     | In BCD 2 digits hours 1-24 hours                                                                                                                                                                                                   |
+| **4** or **0x04** | M\_Duration   | Byte     | Common   | R/W     | In BCD 2 digits minutes 0-59                                                                                                                                                                                                       |
+
+0x6e -\> Events Stamp (NOT implemented yet)
+-------------------------------------------
+
+| **Address** | **Name** | **Size** | **Type** | **R/W** | **Explanation** |
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|             |          |          |          |         |                 |
+
+0x6f -\> Actions Stamp (NOT implemented yet)
+--------------------------------------------
+
+Currently Implemented only Power Up System – permanently selected.
+
+Future implementation: FAN, Charger, Relay
+
+| **Address** | **Name** | **Size** | **Type** | **R/W** | **Explanation** |
+|:---:|:----:|:---:|:---:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|             |          |          |          |         |                 |
