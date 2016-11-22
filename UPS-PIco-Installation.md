@@ -61,18 +61,19 @@ Then run at boot time with the following command:
 
     sudo update-rc.d picofssd enable
 
-Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspberry Pi's GPIO, and turn the Raspberry Pi back on. The daemon should start automatically, and the UPS PIco should function as follows:
+Now, simply turn off your Raspberry Pi, install the UPS PIco on top of the Raspberry Pi's GPIO, and turn the Raspberry Pi back on. The daemon should start automatically, and the UPS PIco should function as follows via the Blue UPS LED:
 
-UPS LED (Blue) Indications
-
-UPS LED is OFF  
+**UPS LED is OFF  **
 System is not running, or is in Low Power Mode (only HW RTC is running)
 
-UPS LED is lighting continuously  
+**UPS LED is lighting continuously  **
 System (PIco + RPi) is booting or shutting down
 
-UPS LED is blinking every 600 ms  
+**UPS LED is blinking every 600 ms  **
 System (PIco + RPi)  is running on cable power (after booting time)
 
-UPS LED is blinking every 1800 ms  
+**UPS LED is blinking every 1800 ms  **
 System (PIco + RPi)  is running on battery power
+
+## Install the UPS PIco HV3.0 Hardware RTC
+
