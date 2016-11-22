@@ -2,3 +2,6 @@
 [[UPS PIco HV3.0 A Stack 450|UPS PIco HV3.0 A Stack 450]]  
 [[UPS PIco HV3.0 A Stack 450 Plus|UPS PIco HV3.0 A Stack 450 Plus]]  
 [[UPS PIco HV3.0 A Top End 450|UPS PIco HV3.0 A Top End 450]]  
+[[UPS PIco Comparison Table|UPS PIco Comparison Table]]  
+[[UPS PIco Firmware Update Guide|UPS PIco Firmware Update]]  
+[[UPS PIco Installation Guide|UPS PIco Installation]]  
