@@ -1,3 +1,5 @@
+# Editing UPS PIco Programmers Registers
+
 The Peripherals I2C Control, "The PICo Interface", is an implementation of I2C interface adapted for control of the peripherals connected to the Raspberry Pi via the command line or through programming language.  By using simple commands, control of UPS PIco peripherals is made extremely simple. Control at programming language level is also possible and easy. The core concept of the PICo interface is that all peripheral device control and data exchange between it and the Raspberry Pi variables are common for the I2C interface and any connected peripherals. Therefore any changes by either party, Raspberry Pi or the peripheral, causes immediate update and action.
 
 Two types of variables are available:
