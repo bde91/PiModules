@@ -35,14 +35,14 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * 3 User Defined LEDs
 * 3 User Defined Buttons
 * Integrated Buzzer for Audible Alerts (Buzzer Included but Not Soldered)
-* Status Monitoring - Powering Voltage, UPS Battery Voltage and Temperature
+* Status Monitoring - Powering Voltage, UPS Battery Voltage/Current and Temperature
 * I2C PICo Interface for Control and Monitoring
 * RS232 Raspberry Pi Interface for Control and Monitoring
-* XTEA Based Cryptography User Software Protection
+* 2-Way XTEA Based Cryptography User Software Protection
 * 2 Level  Watch-dog Functionality with FSSD and Hardware Reset
 * Raspberry Pi Hardware Reset Button via Spring Test Pin (Gold Reset Pin Included)
 * Jumpers for Raspberry Pi  Pin Functionality Selection
-* Stackable Header for Add-On Boards
+* Stackable Header for Add-On Boards (Header Included)
 * Boot Loader for Live Firmware Update
 * Compatible with Intelligent IR Remote Power ON/OFF (PowerMyPi)
 * Integrated ESD-Protected 2 Channel A/D 10 Bit Converters 0-5.2V
@@ -60,10 +60,13 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time
 * Optional battery pack plastic mounting base
 * Optional fan kit which includes micro fan, TO-92 Temperature sensor and mounting hardware
+* Optional Terminal Block Add-on Board with A/D Converter & Voltage Follower 
 
 **UPS PIco PLus Additional Features**
 
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values
+*  Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD
+* Intelligent IR Remote Power ON/OFF if IR receiver installed (Not Included)
 
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
