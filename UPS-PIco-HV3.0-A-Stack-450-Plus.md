@@ -1,10 +1,17 @@
-# UPS PIco HV3.0 A Stack 450 Plus
+# UPS PIco HV3.0 A Stack 450 **Plus**
 
 UPS PIco HV3.0 A Stack 450 **Plus** is an advanced uninterruptible power supply for the Raspberry Pi A+/B+/2/3, that adds a wealth of innovative power back-up functionality and development features to the innovative microcomputer! The UPS PIco will automatically shut-down your Raspberry Pi if there is a power failure, and can be set to automatically monitor and reboot your Pi once power has been restored!
 
 The UPS PIco HV3.0A Stack **Plus** version features a 5V 3A output, designed for use on the latest Raspberry Pi 3!
 
-![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/update-2/DSC_0794.jpg)
+In addition to all the features contained in the standard UPS PIco, the UPS PIco HV3.0A Stack **Plus** features the following:
+
+* Bi Stable (Zero Power) Relay - With dual separated independent contacts
+* Optical Isolated Input (Opto-Coupler) – Readable as A/D values 
+* Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD 
+* Intelligent IR Remote Power ON/OFF (if IR received installed)
+
+![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/plus/DSC_0849.jpg)
 
 The standard UPS PIco **Plus** is equipped with a 450mAh LiPO battery specially designed to enable safe shutdown during a power cut. Additionally, this can be easily upgraded to the extended 4000mAh or 8000mAh versions, which enables prolonged use of a Raspberry Pi for up to 16 hours without a power supply connected!
 
