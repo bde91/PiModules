@@ -26,9 +26,10 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Software Driven Email Broadcasting
 * Intelligent Automatic Charger w/ Power Tracking
 * No Additional External Power Required
+* Supports LiPo & LiFePO4 (Long Life) Batteries
 * 5V 3A Power Backup for even the most demanding Pi 3 set ups.
 * Integrated Hardware Real Time Clock (RTC) with Battery Back-Up
-* File Safe Shutdown Functionality
+* File Safe Shutdown Functionality - Single Button On/Off
 * Raspberry Pi B+/2/3 Activity Pin
 * PWM FAN control (Fan Not Included)
 * 3 User Defined LEDs
@@ -41,7 +42,7 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * 2 Level  Watch-dog Functionality with FSSD and Hardware Reset
 * Raspberry Pi Hardware Reset Button via Spring Test Pin (Gold Reset Pin Included)
 * Jumpers for Raspberry Pi  Pin Functionality Selection
-* Stackable Header  for Add-On Boards
+* Stackable Header for Add-On Boards
 * Boot Loader for Live Firmware Update
 * Compatible with Intelligent IR Remote Power ON/OFF (PowerMyPi)
 * Integrated ESD-Protected 2 Channel A/D 10 Bit Converters 0-5.2V
@@ -50,9 +51,11 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Infra Red Receiver Sensor Interface (IR Not Included)
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
+* Events Triggered RTC Based System Actions Scheduler (ON/OFF based on RTC or Events e.g Voltage, RS232 data, A/D, IR)
 
 **Optional Extras**
 
 * Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time (Not Included)
-* Optional 
+* Optional batteries include dedicated plastic mounting base (Not Included)
+
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
