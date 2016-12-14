@@ -44,25 +44,24 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Jumpers for Raspberry Pi  Pin Functionality Selection
 * Stackable Header for Add-On Boards (Header Included)
 * Boot Loader for Live Firmware Update
-* Compatible with Intelligent IR Remote Power ON/OFF (PowerMyPi)
 * Integrated ESD-Protected 2 Channel A/D 10 Bit Converters 0-5.2V
 * Integrated ESD-Protected 1-Wire Interface
-* Labeled J8 Raspberry Pi GPIO Pins for Easy Plug & Play
+* Labelled J8 Raspberry Pi GPIO Pins for Easy Plug & Play
 * Infra Red Receiver Sensor Interface (IR Not Included)
+* Compatible with Intelligent IR Remote Power ON/OFF (PowerMyPi)
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
 * Events Triggered RTC Based System Actions Scheduler (ON/OFF based on RTC or Events e.g Voltage, RS232 data, A/D, IR)
 * External 5V @ 750mA Power Output w/ Battery Backup; PPTC Fuse and Reverse Current Protected
-
 
 **Optional Extras** (Not Included)
 
 * Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time
 * Optional battery pack plastic mounting base
 * Optional fan kit which includes micro fan, TO-92 Temperature sensor and mounting hardware
-* Optional Terminal Block Add-on Board with A/D Converter & Voltage Follower 
+* Optional Terminal Block Add-on Board with A/D Converter, Voltage Follower & 12V RS232 Interface 
 
-**UPS PIco PLus Additional Features**
+**UPS PIco Plus Additional Features**
 
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values
