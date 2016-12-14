@@ -9,7 +9,7 @@ In addition to all the features contained in the standard UPS PIco, the UPS PIco
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values 
 * Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD 
-* Intelligent IR Remote Power ON/OFF (if IR receiver installed)
+* Intelligent IR Remote Power ON/OFF if IR receiver installed (Not Included)
 
 ![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/plus/DSC_0849.jpg)
 
