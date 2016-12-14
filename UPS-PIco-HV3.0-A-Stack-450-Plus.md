@@ -9,7 +9,7 @@ In addition to all the features contained in the standard UPS PIco, the UPS PIco
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values 
 * Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD 
-* Intelligent IR Remote Power ON/OFF (if IR received installed)
+* Intelligent IR Remote Power ON/OFF (if IR receiver installed)
 
 ![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/plus/DSC_0849.jpg)
 
@@ -21,7 +21,7 @@ The UPS PIco is powered and the battery pack intelligently charged via the GPIO 
 
 The UPS PIco can also be equipped with an optional Infra-Red Receiver which is routed directly to GPIO18 via the PCB for remote IR operations. Additionally the PIco includes an Automatic Temperature Control PWM FAN controller, and can be equipped with a Micro Fan Kit, which enables the use of the Raspberry Pi in extreme conditions including very high temperature environments. The UPS PIco is designed to be 100% compliant with HAT standards for the Raspberry Pi and includes a Gold Plated Reset Pin, with install locations for the Raspberry Pi Zero, B+/2 and 3.
 
-![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/update-2/ups-pico-stack.png)
+![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/update-2/ups-pico-stack-plus.png)
 
 **Feature List**
 
