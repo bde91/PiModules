@@ -21,10 +21,11 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Raspberry Pi HAT Compliant
 * Plug and Play
 * Smart Uninterruptible Power Supply (UPS)
-* Integrated 450mAh LiPO Battery (8-10 Minutes of Power Back-Up)
-* Intelligent Automatic Charger
+* Integrated 450mAh LiPO Battery (10-15 Minutes of Power Back-Up)
+* Interrupt Driven Interaction (Low Memory/CPU Use)
+* Software Driven Email Broadcasting
+* Intelligent Automatic Charger w/ Power Tracking
 * No Additional External Power Required
-* Additional 4000 mAh or 8000mAh battery available for up to 16 Hours Run-Time (Not Included)
 * 5V 3A Power Backup for even the most demanding Pi 3 set ups.
 * Integrated Hardware Real Time Clock (RTC) with Battery Back-Up
 * File Safe Shutdown Functionality
@@ -50,4 +51,8 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
 
+**Optional Extras**
+
+* Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time (Not Included)
+* Optional 
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
