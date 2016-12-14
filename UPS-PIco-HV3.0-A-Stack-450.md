@@ -31,10 +31,10 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Integrated Hardware Real Time Clock (RTC) with Battery Back-Up
 * File Safe Shutdown Functionality - Single Button On/Off
 * Raspberry Pi B+/2/3 Activity Pin
-* PWM FAN control (Fan Not Included)
+* PWM FAN Control (Fan Not Included)
 * 3 User Defined LEDs
 * 3 User Defined Buttons
-* Integrated Buzzer for Audible Alerts (Not Soldered)
+* Integrated Buzzer for Audible Alerts (Buzzer Included but Not Soldered)
 * Status Monitoring - Powering Voltage, UPS Battery Voltage and Temperature
 * I2C PICo Interface for Control and Monitoring
 * RS232 Raspberry Pi Interface for Control and Monitoring
@@ -52,10 +52,16 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
 * Events Triggered RTC Based System Actions Scheduler (ON/OFF based on RTC or Events e.g Voltage, RS232 data, A/D, IR)
+* External 5V Power Output w/ Battery Backup, available for  user applications also when Raspberry Pi is OFF (5V@750mA) protected with PPTC FUSE and reverse current flow diode
 
-**Optional Extras**
+**Optional Extras** (Not Included)
 
-* Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time (Not Included)
-* Optional batteries include dedicated plastic mounting base (Not Included)
+* Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time
+* Optional battery pack plastic mounting base
+* Optional fan kit which includes micro fan, TO-92 Temperature sensor and mounting hardware
+
+**UPS PIco PLus Additional Features**
+
+* Bi Stable (Zero Power) Relay - With dual separated independent contacts
 
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
