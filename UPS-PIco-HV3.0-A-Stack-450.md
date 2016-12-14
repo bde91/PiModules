@@ -52,7 +52,8 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
 * Events Triggered RTC Based System Actions Scheduler (ON/OFF based on RTC or Events e.g Voltage, RS232 data, A/D, IR)
-* External 5V Power Output w/ Battery Backup, available for  user applications also when Raspberry Pi is OFF (5V@750mA) protected with PPTC FUSE and reverse current flow diode
+* External 5V @ 750mA Power Output w/ Battery Backup; PPTC Fuse and Reverse Current Protected
+
 
 **Optional Extras** (Not Included)
 
@@ -63,5 +64,6 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 **UPS PIco PLus Additional Features**
 
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
+* Optical Isolated Input (Opto-Coupler) – Readable as A/D values
 
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
