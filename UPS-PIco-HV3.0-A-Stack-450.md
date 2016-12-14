@@ -61,11 +61,4 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Optional fan kit which includes micro fan, TO-92 Temperature sensor and mounting hardware
 * Optional Terminal Block Add-on Board with A/D Converter, Voltage Follower & 12V RS232 Interface 
 
-**UPS PIco Plus Additional Features**
-
-* Bi Stable (Zero Power) Relay - With dual separated independent contacts
-* Optical Isolated Input (Opto-Coupler) – Readable as A/D values
-*  Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD
-* Intelligent IR Remote Power ON/OFF if IR receiver installed (Not Included)
-
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
