@@ -37,7 +37,7 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * 5V 3A Power Backup for even the most demanding Pi 3 set ups.
 * Integrated Hardware Real Time Clock (RTC) with Battery Back-Up
 * File Safe Shutdown Functionality - Single Button On/Off
-* Raspberry Pi B+/2/3 Activity Pin
+* Raspberry Pi Zero/B+/2/3 Activity Pin
 * PWM FAN Control (Fan Not Included)
 * 3 User Defined LEDs
 * 3 User Defined Buttons
