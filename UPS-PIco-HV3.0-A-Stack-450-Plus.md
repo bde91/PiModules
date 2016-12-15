@@ -9,7 +9,7 @@ In addition to all the features contained in the standard UPS PIco, the UPS PIco
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values 
 * Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD 
-* Dynamic Power Tracking (DPT); charges the battery according to available input power from 100 mA - 1200 mA. DPT checsk the input current every second, and adjusts the charging current based on this value making it ideal for Solar Panel applications.
+* Dynamic Power Tracking (DPT); charges the battery according to available input power from 100 mA - 1200 mA. DPT checks the input current every second, and adjusts the charging current based on this value making it ideal for Solar Panel applications.
 
 ![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/plus/DSC_0849.jpg)
 
