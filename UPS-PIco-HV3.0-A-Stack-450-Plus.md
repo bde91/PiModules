@@ -9,7 +9,6 @@ In addition to all the features contained in the standard UPS PIco, the UPS PIco
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values 
 * Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD 
-* Intelligent IR Remote Power ON/OFF if IR receiver installed (Not Included)
 
 ![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/plus/DSC_0849.jpg)
 
@@ -55,7 +54,7 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Integrated ESD-Protected 1-Wire Interface
 * Labelled J8 Raspberry Pi GPIO Pins for Easy Plug & Play
 * Infra Red Receiver Sensor Interface (IR Not Included)
-* Compatible with Intelligent IR Remote Power ON/OFF (PowerMyPi)
+* Intelligent IR Remote Power ON/OFF if IR receiver installed (Not Included)
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
 * Events Triggered RTC Based System Actions Scheduler (ON/OFF based on RTC or Events e.g Voltage, RS232 data, A/D, IR)
@@ -66,12 +65,10 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Bi Stable (Zero Power) Relay - With dual separated independent contacts
 * Optical Isolated Input (Opto-Coupler) – Readable as A/D values
 *  Extended Voltage Input 7 - 28V DC Protected with Zero Voltage Drop Inverse Polarity Protection, PPTC Over-current, and ESD
-* Intelligent IR Remote Power ON/OFF if IR receiver installed (Not Included)
 
 **Optional Extras** (Not Included)
 
-* Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time
-* Optional battery pack plastic mounting base
+* Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time. Battery Packs include mounting base.
 * Optional fan kit which includes micro fan, TO-92 Temperature sensor and mounting hardware
 * Optional Terminal Block Add-on Board with A/D Converter, Voltage Follower & 12V RS232 Interface 
 
