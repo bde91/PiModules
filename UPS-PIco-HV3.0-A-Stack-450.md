@@ -6,7 +6,7 @@ The UPS PIco HV3.0A Stack version features a 5V 3A output, designed for use on t
 
 ![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/update-2/DSC_0794.jpg)
 
-The standard UPS PIco is equipped with a 450mAh LiPO battery specially designed to enable safe shutdown during a power cut. Additionally, this can be easily upgraded to the extended 4000mAh or 8000mAh versions, which enables prolonged use of a Raspberry Pi for up to 16 hours without a power supply connected!
+The UPS PIco is equipped with a 450mAh LiPO battery specially designed to enable safe shutdown during a power cut. Additionally, this can be easily upgraded to the extended 4000mAh or 8000mAh versions, which enables prolonged use of a Raspberry Pi for up to 16 hours without a power supply connected!
 
 The UPS PIco features an embedded measurement system that continuously checks the powering voltage of the Raspberry Pi. When the cable power on the Raspberry Pi is absent, insufficient, or the device detects a power failure, the UPS Pico automatically switches to the unit’s battery source. The module then continues to check the voltage on the Pi and switches automatically back to the regular cable supply when power is once again available.
 
@@ -56,8 +56,9 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 
 **Optional Extras** (Not Included)
 
-* Optional 4000mAh, 8000mAh or 12000mAh battery available for up to 32 Hours Run-Time. Battery Packs include mounting base.
-* Optional Fan Kit which includes micro fan, TO-92 Temperature sensor and mounting hardware
-* Optional Terminal Block Add-on Board with A/D Converter, Voltage Follower & 12V RS232 Interface 
+* 4000mAh, 8000mAh or 12000mAh batteries; available for up to 32 Hours Run-Time. Battery Packs include mounting base.
+* Fan Kit; which includes micro fan, TO-92 Temperature sensor and mounting hardware
+* Terminal Block Add-on Board; with A/D Converter, Voltage Follower & 12V RS232 Interface
+* UPS PIco Case
 
 ![](https://www.modmypi.com/image/data/git/ups-pico/pico-wiki-3.jpg)
