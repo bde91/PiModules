@@ -13,7 +13,7 @@ In addition to all the features contained in the standard UPS PIco, the UPS PIco
 
 ![](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/plus/DSC_0849.jpg)
 
-The UPS PIco **Plus** is equipped with a 450mAh LiPO battery specially designed to enable safe shutdown during a power cut. Additionally, this can be easily upgraded to the extended 4000mAh or 8000mAh versions, which enables prolonged use of a Raspberry Pi for up to 16 hours without a power supply connected!
+The UPS PIco is equipped with a 450mAh LiPO battery specially designed to enable safe shutdown during a power cut. Additionally, this can be easily upgraded to the extended 4000mAh or 8000mAh versions, which enables prolonged use of a Raspberry Pi for up to 16 hours without a power supply connected!
 
 The UPS PIco features an embedded measurement system that continuously checks the powering voltage of the Raspberry Pi. When the cable power on the Raspberry Pi is absent, insufficient, or the device detects a power failure, the UPS Pico automatically switches to the unit’s battery source. The module then continues to check the voltage on the Pi and switches automatically back to the regular cable supply when power is once again available.
 
