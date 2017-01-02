@@ -4,6 +4,8 @@
 
 The UPS PIco utilises a Daemon (background process) to manage function, which requires setup prior to installation and use of the UPS PIco. This Daemon includes the email broadcasting system for PIco email alerts.
 
+**All packages must be installed for the PIco to function! Please follow the guide below and ensure that you complete every step!**
+
 **For interaction, the UPS PIco HV3.0 uses fixed Raspberry Pi GPIOs to send the pulse train and initiate the File Safe Shutdown Procedure (FSSD). The following pins should not be used by any other applications:**
 **GPIO_GEN27 and GPIO_GEN22**
 
