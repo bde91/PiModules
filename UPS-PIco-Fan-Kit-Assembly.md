@@ -75,3 +75,7 @@ If you want to make the script run on boot simply edit the rc.local file:
 And add the following line, just before the exit 0:
 
 `(sleep 10;python /home/pi/PiModules/temp_fan/pico_HV3.0_temp_fan_v1.0.py)&`
+
+The script can be edited to suit your needs, change the temperature thresholds, use F instead of C etc..
+
+It also includes some logging code, which will log data to "error.log" feel free to edit out the logging lines.
