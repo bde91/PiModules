@@ -8,13 +8,13 @@ A script is also available to automatically set fan speeds based on the temperat
 ![fan kit contents](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan_kit_contents.jpg)
 
 **Step 1**
-![fan header](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan_header-1.jpg)
+![fan header](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-header-1.jpg)
 
 Start by soldering the fan connector to the PIco PCB
 
-![fan header](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan_header-2.jpg)
+![fan header](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-header-2.jpg)
 
-![fan header](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan_header-3.jpg)
+![fan header](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-header-3.jpg)
 
 **Step 2**
 ![to92](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/to92-1.jpg)
