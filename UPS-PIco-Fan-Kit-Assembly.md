@@ -29,6 +29,27 @@ Flip the PIco over and bend the legs out slightly to hold the TO92 in place.
 
 ![to92](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/to92-3.jpg)
 
-Solder and trim the legs
+Solder and trim the legs.
 
 ![to92](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/to92-4.jpg)
+
+**Step 3**
+![fan](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-1.jpg)
+
+Now its time to add the fan.
+
+Start by pressing the four studs through the fan mounting holes, from the top of the PIco
+
+![fan](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-2.jpg)
+
+Flip the PIco over.
+
+![fan](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-3.jpg)
+
+Add a spacer to each of the studs.
+
+![fan](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-4.jpg)
+
+Finally, add the fan and connect the fan wire up. The fan blows air towards the label on the fan, we decided to have this facing down the blow cold air directly onto the SoC of the Pi. It's up to you which way round you put the fan.
+
+![fan](https://www.modmypi.com/image/data/rpi-products/breakout-boards/modmypi/pico/wiki/fan-5.jpg)
