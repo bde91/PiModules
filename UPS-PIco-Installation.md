@@ -13,6 +13,8 @@ The UPS PIco is designed to operate on Raspian or other Operating Systems (OS) b
 
 The PIco uses the I2C interface for communicating so we need to make sure this has been enabled on the Raspberry Pi.
 
+## Enable the I2C Interface
+
 Start by opening up the raspi-config menu:
 
 `sudo raspi-config`
