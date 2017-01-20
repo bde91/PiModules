@@ -11,7 +11,18 @@ The UPS PIco utilises a Daemon (background process) to manage function, which re
 
 The UPS PIco is designed to operate on Raspian or other Operating Systems (OS) based on this platform. The UPS PIco has been tested on Raspian - Release date:2016-09-23, Kernel version:4.4. We cannot guarantee that the system will work on versions of Raspian previous to this, so please ensure that your OS is fully up to date by running the following update commands before attempting to install the UPS PIco.
 
-First, update your system's package list:
+The PIco uses the I2C interface for communicating so we need to make sure this has been enabled on the Raspberry Pi.
+
+Start by opening up the raspi-config menu:
+
+`sudo raspi-config`
+
+Then from the options, select "Interfacing Options"
+
+Then down to "I2C" and select "Yes" to enable it.
+
+
+Next, update your system's package list:
 
     sudo apt-get update
 
