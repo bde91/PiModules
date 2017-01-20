@@ -23,6 +23,7 @@ Then from the options, select "Interfacing Options"
 
 Then down to "I2C" and select "Yes" to enable it.
 
+## Install Required Packages
 
 Next, update your system's package list:
 
