@@ -41,6 +41,10 @@ And update the following Python packages:
 
     sudo apt-get install git python-dev python-serial python-smbus python-jinja2 python-xmltodict python-psutil python-pip
 
+If python-xmltodict is not found, then run the following install as well:
+
+    sudo pip install xmltodict
+
 Next, clone the Raspberry Pi daemons and email broadcasting system from the GitHub using the following command:
 
     sudo git clone https://github.com/modmypi/PiModules.git
