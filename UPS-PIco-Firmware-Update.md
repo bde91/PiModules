@@ -1,7 +1,7 @@
 # UPS PIco Firmware Update
 
-## [Download](http://forum.modmypi.com/technical-support/ups-pico-firmware-update-troubleshooting-t1106.html)
-## [Alternative Download](http://www.forum.pimodules.com/viewforum.php?f=25)
+### [Download](http://forum.modmypi.com/technical-support/ups-pico-firmware-update-troubleshooting-t1106.html)
+### [Alternative Download](http://www.forum.pimodules.com/viewforum.php?f=25)
 
 The UPS PiCo features an embedded serial bootloader which allows users to manually update the unit’s firmware via a dedicated python script.
 
