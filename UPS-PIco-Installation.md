@@ -45,6 +45,10 @@ If python-xmltodict is not found, then run the following install as well:
 
     sudo pip install xmltodict
 
+Start by making sure you are at your home directoy:
+
+    cd ~
+
 Next, clone the Raspberry Pi daemons and email broadcasting system from the GitHub using the following command:
 
     sudo git clone https://github.com/modmypi/PiModules.git
@@ -55,7 +59,7 @@ This will clone the PiModules Git to your Raspberry Pi home directory.
 
 Move to the PiModules git "package" folder:
 
-    cd PiModules/code/python/package
+    cd ~/PiModules/code/python/package
 
 Then proceed with the installation of the email package software
 
@@ -67,7 +71,7 @@ Then proceed with the installation of the email package software
 
 Move to the PiModules git "upspico/picofssd" folder:
 
-    cd PiModules/code/python/upspico/picofssd
+    cd ~/PiModules/code/python/upspico/picofssd
 
 Then proceed with the installation of the picofssd daemons software:
 
