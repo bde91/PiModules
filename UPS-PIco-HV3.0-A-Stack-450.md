@@ -44,7 +44,7 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Jumpers for Raspberry Pi  Pin Functionality Selection
 * Stackable Header for Add-On Boards (Header Included)
 * Boot Loader for Live Firmware Update
-* Integrated ESD-Protected 2 Channel A/D 10 Bit Converters 0-5.2V
+* Integrated ESD-Protected 3 Channel A/D 10 Bit Converters 0-5.2V
 * Integrated ESD-Protected 1-Wire Interface
 * Labelled J8 Raspberry Pi GPIO Pins for Easy Plug & Play
 * Infra Red Receiver Sensor Interface (IR Not Included)
