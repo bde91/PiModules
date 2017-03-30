@@ -52,7 +52,7 @@ The UPS PIco can also be equipped with an optional Infra-Red Receiver which is r
 * Upgradable with PIco Add-on Boards
 * Fits Inside Most Existing Cases
 * Events Triggered RTC Based System Actions Scheduler (ON/OFF based on RTC or Events e.g Voltage, RS232 data, A/D, IR)
-* External 5V @ 750mA Power Output w/ Battery Backup; PPTC Fuse and Reverse Current Protected
+* Auxiliary 5V @ 750mA Power Output w/ Battery Backup; PPTC Fuse and Reverse Current Protected
 
 **Optional Extras** (Not Included)
 
