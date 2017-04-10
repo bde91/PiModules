@@ -3,7 +3,7 @@
 ## Downloads
 
 Latest Revision  
-[28.03.2017 Register List](https://www.modmypi.com/download/pimodules/_28_03_2017-register-list.docx)
+[28.03.2017 Register List](https://www.modmypi.com/download/pimodules/_28_03_2017-register-list.pdf)
 
 Previous Revisions  
 NA
