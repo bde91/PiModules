@@ -1,3 +1,13 @@
+# UPS PIco Fan Control User Guide
+
+## Downloads
+
+Latest Revision  
+[28.03.2017 Fan Control](https://www.modmypi.com/download/pimodules/_28_03_2017-fan-control.pdf)
+
+Previous Revisions  
+NA
+
 # UPS PIco Fan Kit Assembly
 
 One of the addons available for the UPS PIco is the Fan Kit, containing both a fan and a TO92 temperature sensor. These instructions will guide you through the installation of the TO92 and fan.
